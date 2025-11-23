@@ -317,6 +317,11 @@ export function getTheme({ themeKey, name, type }) {
           "font_style": null,
           "font_weight": null
         },
+        "keyword.operator": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
         "label": {
           "color": lightDark("base/color/blue/6", "base/color/blue/2"),
           "font_style": null,
