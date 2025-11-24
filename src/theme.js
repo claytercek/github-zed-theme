@@ -59,6 +59,8 @@ export function getTheme({ themeKey, name, type }) {
     appearance: type,
     name,
     style: {
+      "background.appearance": "opaque",
+
       "background": tokens['bgColor/default'],
       "border": tokens['borderColor/default'],
 
@@ -241,7 +243,7 @@ export function getTheme({ themeKey, name, type }) {
 
       "syntax": {
         "attribute": {
-          "color": null,
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
           "font_style": null,
           "font_weight": null
         },
@@ -266,7 +268,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "constructor": {
-          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
           "font_weight": null
         },
@@ -315,6 +317,11 @@ export function getTheme({ themeKey, name, type }) {
           "font_style": null,
           "font_weight": null
         },
+        "keyword.operator": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
         "label": {
           "color": lightDark("base/color/blue/6", "base/color/blue/2"),
           "font_style": null,
@@ -336,7 +343,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "operator": {
-          "color": tokens["fgColor/default"],
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
           "font_weight": null
         },
@@ -356,12 +363,17 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "property": {
-          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "color": tokens["fgColor/default"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "property.json_key": {
+          "color": lightDark("base/color/green/6", "base/color/green/1"),
           "font_style": null,
           "font_weight": null
         },
         "punctuation": {
-          "color": tokens["fgColor/default"],
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
           "font_weight": null
         },
@@ -372,6 +384,11 @@ export function getTheme({ themeKey, name, type }) {
         },
         "punctuation.delimiter": {
           "color": tokens["fgColor/default"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "punctuation.delimiter.jsx": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
           "font_weight": null
         },
@@ -391,9 +408,9 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "string.escape": {
-          "color": lightDark("base/color/green/6", "base/color/green/1"),
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
-          "font_weight": 700
+          "font_weight": null
         },
         "string.regex": {
           "color": lightDark("base/color/blue/8", "base/color/blue/1"),
@@ -430,13 +447,28 @@ export function getTheme({ themeKey, name, type }) {
           "font_style": null,
           "font_weight": null
         },
+        "type.builtin": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
         "variable": {
           "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
+        "variable.builtin": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "variable.parameter": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
         "variable.special": {
-          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
           "font_style": null,
           "font_weight": null
         },

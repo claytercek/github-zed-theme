@@ -7,6 +7,7 @@
       "appearance": "light",
       "name": "Github Light",
       "style": {
+        "background.appearance": "opaque",
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
         "border.disabled": "#818b981a",
@@ -180,7 +181,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -205,7 +206,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#0550aeff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -254,6 +255,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#0550aeff",
             "font_style": null,
@@ -275,7 +281,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -295,12 +301,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#0550aeff",
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#116329ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -311,6 +322,11 @@
           },
           "punctuation.delimiter": {
             "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -330,9 +346,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#116329ff",
+            "color": "#cf222eff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -369,13 +385,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#1f2328ff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#cf222eff",
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -391,6 +422,7 @@
       "appearance": "light",
       "name": "Github Light Colorblind",
       "style": {
+        "background.appearance": "opaque",
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
         "border.disabled": "#818b981a",
@@ -564,7 +596,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -589,7 +621,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#0550aeff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -638,6 +670,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#0550aeff",
             "font_style": null,
@@ -659,7 +696,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -679,12 +716,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#0550aeff",
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#116329ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -695,6 +737,11 @@
           },
           "punctuation.delimiter": {
             "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -714,9 +761,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#116329ff",
+            "color": "#cf222eff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -753,13 +800,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#1f2328ff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#cf222eff",
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -775,6 +837,7 @@
       "appearance": "light",
       "name": "Github Light High Contrast",
       "style": {
+        "background.appearance": "opaque",
         "background": "#ffffffff",
         "border": "#454c54ff",
         "border.disabled": "#59636e1f",
@@ -948,7 +1011,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#023b95ff",
             "font_style": null,
             "font_weight": null
           },
@@ -973,7 +1036,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#023b95ff",
+            "color": "#a0111fff",
             "font_style": null,
             "font_weight": null
           },
@@ -1022,6 +1085,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#023b95ff",
             "font_style": null,
@@ -1043,7 +1111,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#010409ff",
+            "color": "#a0111fff",
             "font_style": null,
             "font_weight": null
           },
@@ -1063,12 +1131,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#023b95ff",
+            "color": "#010409ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#024c1aff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#010409ff",
+            "color": "#a0111fff",
             "font_style": null,
             "font_weight": null
           },
@@ -1079,6 +1152,11 @@
           },
           "punctuation.delimiter": {
             "color": "#010409ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#a0111fff",
             "font_style": null,
             "font_weight": null
           },
@@ -1098,9 +1176,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#024c1aff",
+            "color": "#a0111fff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#032563ff",
@@ -1137,13 +1215,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#010409ff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#a0111fff",
+            "color": "#023b95ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1159,6 +1252,7 @@
       "appearance": "light",
       "name": "Github Light Tritanopia",
       "style": {
+        "background.appearance": "opaque",
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
         "border.disabled": "#818b981a",
@@ -1332,7 +1426,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -1357,7 +1451,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#0550aeff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -1406,6 +1500,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#0550aeff",
             "font_style": null,
@@ -1427,7 +1526,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -1447,12 +1546,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#0550aeff",
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#116329ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#1f2328ff",
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -1463,6 +1567,11 @@
           },
           "punctuation.delimiter": {
             "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#cf222eff",
             "font_style": null,
             "font_weight": null
           },
@@ -1482,9 +1591,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#116329ff",
+            "color": "#cf222eff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -1521,13 +1630,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#1f2328ff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#cf222eff",
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           },
@@ -1543,6 +1667,7 @@
       "appearance": "dark",
       "name": "Github Dark",
       "style": {
+        "background.appearance": "opaque",
         "background": "#0d1117ff",
         "border": "#3d444dff",
         "border.disabled": "#656c761a",
@@ -1716,7 +1841,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -1741,7 +1866,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#79c0ffff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1790,6 +1915,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#79c0ffff",
             "font_style": null,
@@ -1811,7 +1941,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1831,12 +1961,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#79c0ffff",
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#7ee787ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1847,6 +1982,11 @@
           },
           "punctuation.delimiter": {
             "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1866,9 +2006,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#7ee787ff",
+            "color": "#ff7b72ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -1905,13 +2045,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#f0f6fcff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#ff7b72ff",
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -1927,6 +2082,7 @@
       "appearance": "dark",
       "name": "Github Dark Colorblind",
       "style": {
+        "background.appearance": "opaque",
         "background": "#0d1117ff",
         "border": "#3d444dff",
         "border.disabled": "#656c761a",
@@ -2100,7 +2256,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -2125,7 +2281,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#79c0ffff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2174,6 +2330,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#79c0ffff",
             "font_style": null,
@@ -2195,7 +2356,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2215,12 +2376,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#79c0ffff",
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#7ee787ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2231,6 +2397,11 @@
           },
           "punctuation.delimiter": {
             "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2250,9 +2421,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#7ee787ff",
+            "color": "#ff7b72ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -2289,13 +2460,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#f0f6fcff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#ff7b72ff",
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -2311,6 +2497,7 @@
       "appearance": "dark",
       "name": "Github Dark High Contrast",
       "style": {
+        "background.appearance": "opaque",
         "background": "#010409ff",
         "border": "#b7bdc8ff",
         "border.disabled": "#656c761a",
@@ -2484,7 +2671,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#91cbffff",
             "font_style": null,
             "font_weight": null
           },
@@ -2509,7 +2696,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#91cbffff",
+            "color": "#ff9492ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2558,6 +2745,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#91cbffff",
             "font_style": null,
@@ -2579,7 +2771,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#ffffffff",
+            "color": "#ff9492ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2599,12 +2791,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#91cbffff",
+            "color": "#ffffffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#72f088ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#ffffffff",
+            "color": "#ff9492ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2615,6 +2812,11 @@
           },
           "punctuation.delimiter": {
             "color": "#ffffffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#ff9492ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2634,9 +2836,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#72f088ff",
+            "color": "#ff9492ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#addcffff",
@@ -2673,13 +2875,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#ffffffff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#ff9492ff",
+            "color": "#91cbffff",
             "font_style": null,
             "font_weight": null
           },
@@ -2695,6 +2912,7 @@
       "appearance": "dark",
       "name": "Github Dark Tritanopia",
       "style": {
+        "background.appearance": "opaque",
         "background": "#0d1117ff",
         "border": "#3d444dff",
         "border.disabled": "#656c761a",
@@ -2868,7 +3086,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -2893,7 +3111,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#79c0ffff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2942,6 +3160,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#79c0ffff",
             "font_style": null,
@@ -2963,7 +3186,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2983,12 +3206,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#79c0ffff",
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#7ee787ff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#f0f6fcff",
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -2999,6 +3227,11 @@
           },
           "punctuation.delimiter": {
             "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#ff7b72ff",
             "font_style": null,
             "font_weight": null
           },
@@ -3018,9 +3251,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#7ee787ff",
+            "color": "#ff7b72ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -3057,13 +3290,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#f0f6fcff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#ff7b72ff",
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -3079,6 +3327,7 @@
       "appearance": "dark",
       "name": "Github Dark Dimmed",
       "style": {
+        "background.appearance": "opaque",
         "background": "#212830ff",
         "border": "#3d444dff",
         "border.disabled": "#656c761a",
@@ -3252,7 +3501,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": null,
+            "color": "#6cb6ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -3277,7 +3526,7 @@
             "font_weight": null
           },
           "constructor": {
-            "color": "#6cb6ffff",
+            "color": "#f47067ff",
             "font_style": null,
             "font_weight": null
           },
@@ -3326,6 +3575,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.operator": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#6cb6ffff",
             "font_style": null,
@@ -3347,7 +3601,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#d1d7e0ff",
+            "color": "#f47067ff",
             "font_style": null,
             "font_weight": null
           },
@@ -3367,12 +3621,17 @@
             "font_weight": null
           },
           "property": {
-            "color": "#6cb6ffff",
+            "color": "#d1d7e0ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#8ddb8cff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#d1d7e0ff",
+            "color": "#f47067ff",
             "font_style": null,
             "font_weight": null
           },
@@ -3383,6 +3642,11 @@
           },
           "punctuation.delimiter": {
             "color": "#d1d7e0ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter.jsx": {
+            "color": "#f47067ff",
             "font_style": null,
             "font_weight": null
           },
@@ -3402,9 +3666,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#8ddb8cff",
+            "color": "#f47067ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#96d0ffff",
@@ -3441,13 +3705,28 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#d1d7e0ff",
             "font_style": null,
             "font_weight": null
           },
+          "variable.builtin": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
-            "color": "#f47067ff",
+            "color": "#6cb6ffff",
             "font_style": null,
             "font_weight": null
           },
