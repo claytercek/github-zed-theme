@@ -59,6 +59,15 @@ export function getTheme({ themeKey, name, type }) {
     appearance: type,
     name,
     style: {
+      accents: [
+        "blue",
+        "green",
+        "yellow",
+        "red",
+        "pink",
+        "purple",
+      ].map(color => tokens[`data/${color}/color/emphasis`]),
+
       "background.appearance": "opaque",
 
       "background": tokens['bgColor/default'],
