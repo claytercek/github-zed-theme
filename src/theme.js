@@ -343,7 +343,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "operator": {
-          "color": tokens["fgColor/default"],
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
           "font_style": null,
           "font_weight": null
         },
