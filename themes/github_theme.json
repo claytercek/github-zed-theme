@@ -161,24 +161,9 @@
             "selection": "#006edb66"
           },
           {
-            "cursor": "#eb670fff",
-            "background": "#eb670fff",
-            "selection": "#eb670f66"
-          },
-          {
-            "cursor": "#ce2c85ff",
-            "background": "#ce2c85ff",
-            "selection": "#ce2c8566"
-          },
-          {
             "cursor": "#30a147ff",
             "background": "#30a147ff",
             "selection": "#30a14766"
-          },
-          {
-            "cursor": "#894cebff",
-            "background": "#894cebff",
-            "selection": "#894ceb66"
           },
           {
             "cursor": "#b88700ff",
@@ -186,14 +171,19 @@
             "selection": "#b8870066"
           },
           {
-            "cursor": "#179b9bff",
-            "background": "#179b9bff",
-            "selection": "#179b9b66"
-          },
-          {
             "cursor": "#df0c24ff",
             "background": "#df0c24ff",
             "selection": "#df0c2466"
+          },
+          {
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
+          },
+          {
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           }
         ],
         "syntax": {
@@ -441,11 +431,9 @@
       "style": {
         "accents": [
           "#006edbff",
-          "#30a147ff",
+          null,
           "#b88700ff",
-          "#df0c24ff",
-          "#ce2c85ff",
-          "#894cebff"
+          "#ce2c85ff"
         ],
         "background.appearance": "opaque",
         "background": "#ffffffff",
@@ -593,24 +581,7 @@
             "selection": "#006edb66"
           },
           {
-            "cursor": "#eb670fff",
-            "background": "#eb670fff",
-            "selection": "#eb670f66"
-          },
-          {
-            "cursor": "#ce2c85ff",
-            "background": "#ce2c85ff",
-            "selection": "#ce2c8566"
-          },
-          {
-            "cursor": "#30a147ff",
-            "background": "#30a147ff",
-            "selection": "#30a14766"
-          },
-          {
-            "cursor": "#894cebff",
-            "background": "#894cebff",
-            "selection": "#894ceb66"
+            "selection": null
           },
           {
             "cursor": "#b88700ff",
@@ -618,14 +589,9 @@
             "selection": "#b8870066"
           },
           {
-            "cursor": "#179b9bff",
-            "background": "#179b9bff",
-            "selection": "#179b9b66"
-          },
-          {
-            "cursor": "#df0c24ff",
-            "background": "#df0c24ff",
-            "selection": "#df0c2466"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           }
         ],
         "syntax": {
@@ -1025,24 +991,9 @@
             "selection": "#006edb66"
           },
           {
-            "cursor": "#eb670fff",
-            "background": "#eb670fff",
-            "selection": "#eb670f66"
-          },
-          {
-            "cursor": "#ce2c85ff",
-            "background": "#ce2c85ff",
-            "selection": "#ce2c8566"
-          },
-          {
             "cursor": "#30a147ff",
             "background": "#30a147ff",
             "selection": "#30a14766"
-          },
-          {
-            "cursor": "#894cebff",
-            "background": "#894cebff",
-            "selection": "#894ceb66"
           },
           {
             "cursor": "#b88700ff",
@@ -1050,14 +1001,19 @@
             "selection": "#b8870066"
           },
           {
-            "cursor": "#179b9bff",
-            "background": "#179b9bff",
-            "selection": "#179b9b66"
-          },
-          {
             "cursor": "#df0c24ff",
             "background": "#df0c24ff",
             "selection": "#df0c2466"
+          },
+          {
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
+          },
+          {
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           }
         ],
         "syntax": {
@@ -1304,12 +1260,10 @@
       "name": "Github Light Tritanopia",
       "style": {
         "accents": [
-          "#006edbff",
-          "#30a147ff",
+          "#179b9bff",
           "#b88700ff",
-          "#df0c24ff",
-          "#ce2c85ff",
-          "#894cebff"
+          "#894cebff",
+          "#ce2c85ff"
         ],
         "background.appearance": "opaque",
         "background": "#ffffffff",
@@ -1452,29 +1406,9 @@
         "warning.border": "#d1d9e0b3",
         "players": [
           {
-            "cursor": "#006edbff",
-            "background": "#006edbff",
-            "selection": "#006edb66"
-          },
-          {
-            "cursor": "#eb670fff",
-            "background": "#eb670fff",
-            "selection": "#eb670f66"
-          },
-          {
-            "cursor": "#ce2c85ff",
-            "background": "#ce2c85ff",
-            "selection": "#ce2c8566"
-          },
-          {
-            "cursor": "#30a147ff",
-            "background": "#30a147ff",
-            "selection": "#30a14766"
-          },
-          {
-            "cursor": "#894cebff",
-            "background": "#894cebff",
-            "selection": "#894ceb66"
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
             "cursor": "#b88700ff",
@@ -1482,14 +1416,14 @@
             "selection": "#b8870066"
           },
           {
-            "cursor": "#179b9bff",
-            "background": "#179b9bff",
-            "selection": "#179b9b66"
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           },
           {
-            "cursor": "#df0c24ff",
-            "background": "#df0c24ff",
-            "selection": "#df0c2466"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           }
         ],
         "syntax": {
@@ -1889,24 +1823,9 @@
             "selection": "#0576ff66"
           },
           {
-            "cursor": "#984b10ff",
-            "background": "#984b10ff",
-            "selection": "#984b1066"
-          },
-          {
-            "cursor": "#d34591ff",
-            "background": "#d34591ff",
-            "selection": "#d3459166"
-          },
-          {
             "cursor": "#2f6f37ff",
             "background": "#2f6f37ff",
             "selection": "#2f6f3766"
-          },
-          {
-            "cursor": "#975bf1ff",
-            "background": "#975bf1ff",
-            "selection": "#975bf166"
           },
           {
             "cursor": "#895906ff",
@@ -1914,14 +1833,19 @@
             "selection": "#89590666"
           },
           {
-            "cursor": "#106c70ff",
-            "background": "#106c70ff",
-            "selection": "#106c7066"
-          },
-          {
             "cursor": "#eb3342ff",
             "background": "#eb3342ff",
             "selection": "#eb334266"
+          },
+          {
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
+          },
+          {
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           }
         ],
         "syntax": {
@@ -2169,11 +2093,9 @@
       "style": {
         "accents": [
           "#0576ffff",
-          "#2f6f37ff",
+          null,
           "#895906ff",
-          "#eb3342ff",
-          "#d34591ff",
-          "#975bf1ff"
+          "#d34591ff"
         ],
         "background.appearance": "opaque",
         "background": "#0d1117ff",
@@ -2321,24 +2243,7 @@
             "selection": "#0576ff66"
           },
           {
-            "cursor": "#984b10ff",
-            "background": "#984b10ff",
-            "selection": "#984b1066"
-          },
-          {
-            "cursor": "#d34591ff",
-            "background": "#d34591ff",
-            "selection": "#d3459166"
-          },
-          {
-            "cursor": "#2f6f37ff",
-            "background": "#2f6f37ff",
-            "selection": "#2f6f3766"
-          },
-          {
-            "cursor": "#975bf1ff",
-            "background": "#975bf1ff",
-            "selection": "#975bf166"
+            "selection": null
           },
           {
             "cursor": "#895906ff",
@@ -2346,14 +2251,9 @@
             "selection": "#89590666"
           },
           {
-            "cursor": "#106c70ff",
-            "background": "#106c70ff",
-            "selection": "#106c7066"
-          },
-          {
-            "cursor": "#eb3342ff",
-            "background": "#eb3342ff",
-            "selection": "#eb334266"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           }
         ],
         "syntax": {
@@ -2753,24 +2653,9 @@
             "selection": "#0576ff66"
           },
           {
-            "cursor": "#984b10ff",
-            "background": "#984b10ff",
-            "selection": "#984b1066"
-          },
-          {
-            "cursor": "#d34591ff",
-            "background": "#d34591ff",
-            "selection": "#d3459166"
-          },
-          {
             "cursor": "#2f6f37ff",
             "background": "#2f6f37ff",
             "selection": "#2f6f3766"
-          },
-          {
-            "cursor": "#975bf1ff",
-            "background": "#975bf1ff",
-            "selection": "#975bf166"
           },
           {
             "cursor": "#895906ff",
@@ -2778,14 +2663,19 @@
             "selection": "#89590666"
           },
           {
-            "cursor": "#106c70ff",
-            "background": "#106c70ff",
-            "selection": "#106c7066"
-          },
-          {
             "cursor": "#eb3342ff",
             "background": "#eb3342ff",
             "selection": "#eb334266"
+          },
+          {
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
+          },
+          {
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           }
         ],
         "syntax": {
@@ -3032,12 +2922,10 @@
       "name": "Github Dark Tritanopia",
       "style": {
         "accents": [
-          "#0576ffff",
-          "#2f6f37ff",
+          "#106c70ff",
           "#895906ff",
-          "#eb3342ff",
-          "#d34591ff",
-          "#975bf1ff"
+          "#975bf1ff",
+          "#d34591ff"
         ],
         "background.appearance": "opaque",
         "background": "#0d1117ff",
@@ -3180,29 +3068,9 @@
         "warning.border": "#3d444db3",
         "players": [
           {
-            "cursor": "#0576ffff",
-            "background": "#0576ffff",
-            "selection": "#0576ff66"
-          },
-          {
-            "cursor": "#984b10ff",
-            "background": "#984b10ff",
-            "selection": "#984b1066"
-          },
-          {
-            "cursor": "#d34591ff",
-            "background": "#d34591ff",
-            "selection": "#d3459166"
-          },
-          {
-            "cursor": "#2f6f37ff",
-            "background": "#2f6f37ff",
-            "selection": "#2f6f3766"
-          },
-          {
-            "cursor": "#975bf1ff",
-            "background": "#975bf1ff",
-            "selection": "#975bf166"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
             "cursor": "#895906ff",
@@ -3210,14 +3078,14 @@
             "selection": "#89590666"
           },
           {
-            "cursor": "#106c70ff",
-            "background": "#106c70ff",
-            "selection": "#106c7066"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "cursor": "#eb3342ff",
-            "background": "#eb3342ff",
-            "selection": "#eb334266"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           }
         ],
         "syntax": {
@@ -3617,24 +3485,9 @@
             "selection": "#0576ff66"
           },
           {
-            "cursor": "#984b10ff",
-            "background": "#984b10ff",
-            "selection": "#984b1066"
-          },
-          {
-            "cursor": "#d34591ff",
-            "background": "#d34591ff",
-            "selection": "#d3459166"
-          },
-          {
             "cursor": "#2f6f37ff",
             "background": "#2f6f37ff",
             "selection": "#2f6f3766"
-          },
-          {
-            "cursor": "#975bf1ff",
-            "background": "#975bf1ff",
-            "selection": "#975bf166"
           },
           {
             "cursor": "#895906ff",
@@ -3642,14 +3495,19 @@
             "selection": "#89590666"
           },
           {
-            "cursor": "#106c70ff",
-            "background": "#106c70ff",
-            "selection": "#106c7066"
-          },
-          {
             "cursor": "#eb3342ff",
             "background": "#eb3342ff",
             "selection": "#eb334266"
+          },
+          {
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
+          },
+          {
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           }
         ],
         "syntax": {

@@ -55,18 +55,44 @@ export function getTheme({ themeKey, name, type }) {
     return '#' + color;
   }
 
+  let spectrum = [
+    "blue",
+    "green",
+    "yellow",
+    "red",
+    "pink",
+    "purple",
+  ];
+
+  if (themeKey.includes('colorblind')) {
+    // protonopia and deuteranopia friendly spectrum
+    // TODO: these colors were determined by simulating colorblindness digitally 
+    // and picking colors that were more easily distinguishable. A more
+    // thorough approach with input from colorblind users would be better.
+    spectrum = [
+      "blue",
+      "cyan",
+      "yellow",
+      "pink",
+    ];
+  } else if (themeKey.includes('tritanopia')) {
+    // tritanopia friendly spectrum
+    // TODO: these colors were determined by simulating colorblindness digitally 
+    // and picking colors that were more easily distinguishable. A more
+    // thorough approach with input from colorblind users would be better.
+    spectrum = [
+      "teal",
+      "yellow",
+      "purple",
+      "pink",
+    ];
+  }
+
   return {
     appearance: type,
     name,
     style: {
-      accents: [
-        "blue",
-        "green",
-        "yellow",
-        "red",
-        "pink",
-        "purple",
-      ].map(color => tokens[`data/${color}/color/emphasis`]),
+      accents: spectrum.map(color => tokens[`data/${color}/color/emphasis`]),
 
       "background.appearance": "opaque",
 
@@ -247,16 +273,7 @@ export function getTheme({ themeKey, name, type }) {
       "warning.border": tokens['borderColor/muted'],
 
       "players":
-        [
-          "blue",
-          "orange",
-          "pink",
-          "green",
-          "purple",
-          "yellow",
-          "teal",
-          "red"
-        ].map(color => ({
+        spectrum.map(color => ({
           "cursor": tokens[`data/${color}/color/emphasis`],
           "background": tokens[`data/${color}/color/emphasis`],
           "selection": alpha(`data/${color}/color/emphasis`, 0.4)
